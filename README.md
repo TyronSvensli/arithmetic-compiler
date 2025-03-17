@@ -8,6 +8,9 @@ it has four main steps:
 3. generating intermediate code from the ast
 4. generating ASM from intermediate code
 
-then the ASM is assembled into a binary that is run
+then the ASM is assembled into a binary that is run, but that's just using nasm and ld
+
+the first step is what the 
+
 
 
