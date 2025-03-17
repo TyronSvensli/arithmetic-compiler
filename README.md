@@ -1,5 +1,5 @@
 # arithmetic-compiler
-input a math expression compile it into a binary that calculates and outputs the answer
+input a math expression and compile it into a binary that calculates and outputs the answer
 
 it has four main steps:
 
