@@ -1,5 +1,5 @@
 #!/bin/bash
-echo 'Do you want to use GUI or write the expression in CLI'
+echo 'Do you want to use GUI or write the expression in CLI (input "CLI" or "GUI"):'
 read input
 if [ "$input" == "GUI" ]; then
 python3 calc_gui.py
