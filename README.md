@@ -18,6 +18,32 @@ the second step is done by the PEMDAS-parsing.c program (previously called OOP-p
 
 the third step is the intermed-codegen.c program that does, what it does is 
 
+## Building and Using:
+
+requirements:
+- x86-64 processor
+- Linux based OS
+- a C compiler
+- nasm & ld
+- python (if you want to use the GUI)
+
+
+First of all you have to compile the C files, in this example I'm using GNU's C Compiler:
+
+gcc PEMDAS-parsing.c -o PEMDAS-parsing
+gcc intermed-codegen.c -o intermed-codegen
+gcc intermed-to-asm.c -o intermed-to-asm
+
+Then give executable file permission to the run.sh script:
+
+chmod +x run.sh
+
+to run it you simply need to run the run script
+./run.sh
+
+
+
+
 
 
 
